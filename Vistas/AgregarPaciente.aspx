@@ -53,14 +53,14 @@
             <br />
             <br />
             Sexo:&nbsp;
-            <asp:RequiredFieldValidator ID="rfvSexo" runat="server" ControlToValidate="rblSexo" ErrorMessage="Debe ingresar un sexo" ValidationGroup="1">*</asp:RequiredFieldValidator>
+            <asp:RequiredFieldValidator ID="rfvSexo" runat="server" ControlToValidate="rblSexo" ErrorMessage="Debe seleccionar un Sexo" ValidationGroup="1">*</asp:RequiredFieldValidator>
 &nbsp;<asp:RadioButtonList ID="rblSexo" runat="server" ValidationGroup="1">
             </asp:RadioButtonList>
             <br />
             <br />
             Nacionalidad:
             <asp:TextBox ID="txtNacionalidad" runat="server" ValidationGroup="1"></asp:TextBox>
-&nbsp;<asp:RequiredFieldValidator ID="rfvNacionalidad" runat="server" ControlToValidate="txtNacionalidad" ErrorMessage="debe ingresar una nacionalidad" ValidationGroup="1">*</asp:RequiredFieldValidator>
+&nbsp;<asp:RequiredFieldValidator ID="rfvNacionalidad" runat="server" ControlToValidate="txtNacionalidad" ErrorMessage="Debe ingresar una nacionalidad" ValidationGroup="1">*</asp:RequiredFieldValidator>
             &nbsp;<asp:RegularExpressionValidator ID="revNacionalidad" runat="server" ControlToValidate="txtNacionalidad" ErrorMessage="Debe ingresar solo letras en la nacionalidad" ValidationExpression="[A-Za-z]+" ValidationGroup="1">*</asp:RegularExpressionValidator>
             <br />
             <br />
@@ -78,13 +78,13 @@
             Localidad:
             <asp:DropDownList ID="ddlLocalidad" runat="server" ValidationGroup="1">
             </asp:DropDownList>
-&nbsp;<asp:RequiredFieldValidator ID="rfvLocalidad" runat="server" ControlToValidate="ddlLocalidad" ErrorMessage="Debe ingresar una localidad" ValidationGroup="1">*</asp:RequiredFieldValidator>
+&nbsp;<asp:RequiredFieldValidator ID="rfvLocalidad" runat="server" ControlToValidate="ddlLocalidad" ErrorMessage="Debe seleccionar una Localidad" ValidationGroup="1">*</asp:RequiredFieldValidator>
             <br />
             <br />
             Provincia:
             <asp:DropDownList ID="ddlProvincia" runat="server" ValidationGroup="1">
             </asp:DropDownList>
-&nbsp;<asp:RequiredFieldValidator ID="rfvProvincia" runat="server" ControlToValidate="ddlProvincia" ErrorMessage="Debe ingresar" ValidationGroup="1">*</asp:RequiredFieldValidator>
+&nbsp;<asp:RequiredFieldValidator ID="rfvProvincia" runat="server" ControlToValidate="ddlProvincia" ErrorMessage="Debe seleccionar una Provincia" ValidationGroup="1">*</asp:RequiredFieldValidator>
             <br />
             <br />
             Correo Electronico:

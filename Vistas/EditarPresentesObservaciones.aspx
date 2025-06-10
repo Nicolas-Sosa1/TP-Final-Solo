@@ -28,6 +28,12 @@
 
         </div>
         <div>
+            <h1>Presentes y Observaciones</h1>
+        </div>
+        <div>
+
+            <asp:GridView ID="GridView1" runat="server" AutoGenerateEditButton="True">
+            </asp:GridView>
 
         </div>
     </form>

@@ -13,5 +13,15 @@ namespace Vistas
         {
 
         }
+
+        protected void btnVisualizarTurnos_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("VisualizarTurnosPacientes.aspx");
+        }
+
+        protected void btnPresentesObservaciones_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("EditarPresentesObservaciones.aspx");
+        }
     }
 }

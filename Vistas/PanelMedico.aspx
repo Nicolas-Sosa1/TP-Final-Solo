@@ -15,14 +15,14 @@
 
         </div>
         <div>
-            <h1>Inicio - Administrador</h1>
+            <h1>Inicio - Medico</h1>
         </div>
         <div>
 
-            <asp:Button ID="btnVisualizarTurnos" runat="server" Text="Visualizar Turnos" />
+            <asp:Button ID="btnVisualizarTurnos" runat="server" Text="Visualizar Turnos" OnClick="btnVisualizarTurnos_Click" />
             <br />
             <br />
-            <asp:Button ID="btnPresentesObservaciones" runat="server" Text="Presentes y Observaciones" />
+            <asp:Button ID="btnPresentesObservaciones" runat="server" Text="Presentes y Observaciones" OnClick="btnPresentesObservaciones_Click" />
 
         </div>
     </form>

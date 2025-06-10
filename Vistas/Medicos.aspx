@@ -27,6 +27,9 @@
                         <td>
                             <asp:HyperLink ID="hlEliminarMedico" runat="server" NavigateUrl="~/EliminarMedico.aspx">Eliminar medico</asp:HyperLink>
                         </td>
+                        <td>
+                            <asp:HyperLink ID="hlUsuarioContrasena" runat="server" NavigateUrl="~/UsuarioContrasena.aspx">Agregar Usuario y Contraseña</asp:HyperLink>
+                        </td>
                     </tr>
                 </table>
 

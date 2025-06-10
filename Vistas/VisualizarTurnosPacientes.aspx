@@ -33,6 +33,10 @@
 
             Buscar Paciente:
             <asp:TextBox ID="txtPaciente" runat="server"></asp:TextBox>
+            &nbsp;
+            <asp:Button ID="btnFiltrar" runat="server" Text="Filtrar" />
+&nbsp;
+            <asp:Button ID="btnMostrarTodos" runat="server" Text="Mostrar Todos" />
             <br />
             <br />
             <asp:GridView ID="GridView1" runat="server">

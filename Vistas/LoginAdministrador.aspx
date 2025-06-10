@@ -44,12 +44,6 @@
             <asp:RequiredFieldValidator ID="rfvContrasena" runat="server" ControlToValidate="txtContrasena" ErrorMessage="Debe ingresar una contraseña" ValidationGroup="1">*</asp:RequiredFieldValidator>
             <br />
             <br />
-            Ingrese nuevamente su Contraseña:
-            <asp:TextBox ID="txtContrasenaRepetida" runat="server" TextMode="Password" ValidationGroup="1" Height="22px"></asp:TextBox>
-&nbsp;<asp:RequiredFieldValidator ID="rfvContrasenaRepetida" runat="server" ControlToValidate="txtContrasenaRepetida" ErrorMessage="Debe ingresar nuevamente su contraseña" ValidationGroup="1">*</asp:RequiredFieldValidator>
-            &nbsp;<asp:CompareValidator ID="cvContrasena" runat="server" ControlToCompare="txtContrasena" ControlToValidate="txtContrasenaRepetida" ErrorMessage="Las contraseñas no coinciden" ValidationGroup="1">*</asp:CompareValidator>
-            <br />
-            <br />
             <br />
             <asp:Button ID="btnIngresar" runat="server" Text="Ingresar" ValidationGroup="1" OnClick="btnIngresar_Click" />
             <br />

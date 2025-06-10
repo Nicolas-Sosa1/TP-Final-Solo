@@ -80,6 +80,7 @@
     <Content Include="Pacientes.aspx" />
     <Content Include="PanelAdministrador.aspx" />
     <Content Include="PanelMedico.aspx" />
+    <Content Include="UsuarioContrasena.aspx" />
     <Content Include="VisualizarTurnosPacientes.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -176,6 +177,13 @@
       <DependentUpon>PanelMedico.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UsuarioContrasena.aspx.cs">
+      <DependentUpon>UsuarioContrasena.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsuarioContrasena.aspx.designer.cs">
+      <DependentUpon>UsuarioContrasena.aspx</DependentUpon>
+    </Compile>
     <Compile Include="VisualizarTurnosPacientes.aspx.cs">
       <DependentUpon>VisualizarTurnosPacientes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

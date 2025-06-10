@@ -31,9 +31,7 @@
         <div>
             <h1>Agregar Login - Medico</h1>
         </div>
-       
-    </form>
-    <form id="form2" runat="server">
+    
         <div>
             Dni: <asp:TextBox ID="txtDni" runat="server" ValidationGroup="1"></asp:TextBox>
 &nbsp;<asp:RequiredFieldValidator ID="rfvDni" runat="server" ControlToValidate="txtDni" ErrorMessage="Debe ingresar un campo para buscar un paciente" ValidationGroup="1">*</asp:RequiredFieldValidator>
@@ -61,7 +59,7 @@
             <br />
             <br />
             <br />
-            <asp:Button ID="btnAgregar" runat="server" Text="Agregar Login" ValidationGroup="1" OnClick="btnIngresar_Click" />
+            <asp:Button ID="btnAgregar" runat="server" Text="Agregar Login" ValidationGroup="1" />
             <br />
             <br />
             <br />
@@ -71,12 +69,6 @@
             <asp:ValidationSummary ID="vsResumenErrores" runat="server" ValidationGroup="1" />
         </div>
     </form>
-    <form id="form1" runat="server">
-            
-        <div>
-
-        </div>
-       
-    </form>
+  
 </body>
 </html>
